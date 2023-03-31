@@ -3,15 +3,15 @@ import React, { useState, useEffect } from 'react';
 import { Header } from '../../components/Header';
 import { DeputadosCard } from '../../components/DeputadosCard/styles';
 
-function Feed () {
+function Deputados() {
   return (
       <>
-      <Header />
         <div>
+          <DeputadosCard />
         </div>
       </>
   );
 }
 
 
-export { Feed }
+export { Deputados }
