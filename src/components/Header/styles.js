@@ -17,7 +17,7 @@ export const Row = styled.div`
     align-items: center;
 `;
 
-export const Wrapper = styled.div`
+export const Nav = styled.div`
     background-color: #077500;
     width: 100%;
     height: 47px;
