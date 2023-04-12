@@ -22,35 +22,22 @@ const Home = () => {
         <Header />
         <Container>
             <div>
-                <Title>
-                    Encontre partidos e deputados de uma forma 
-                    <TitleHighlight>
-                        Rápida
-                    </TitleHighlight>
-                    e prática!
-                </Title>
-                <TextContent>
-                  Encontre todos os Deputados, Partidos e outras coisas relacionadas a camara dos deputados!
-                </TextContent>
-                <Button title="Começar agora" variant="secondary" onClick={handleClickSignIn} type="button"/>
+              <h4>React-Bootstrap Carousel Component</h4>
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
+                    alt="Image One"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+                    alt="Image Two"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
-            <div>
-      <h4>React-Bootstrap Carousel Component</h4>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-            alt="Image One"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          />
-        </Carousel.Item>
-      </Carousel>
-    </div>
         </Container>
     </>)
 }
