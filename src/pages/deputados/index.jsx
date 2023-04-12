@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react';
-
+import { React } from 'react';
 import { Header } from '../../components/Header';
-import { DeputadosCard } from '../../components/DeputadosCard';
 import { Container } from 'react-bootstrap';
 import { Pesquisar } from '../../components/Pesquisar';
 function Deputados() {

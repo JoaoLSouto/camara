@@ -8,7 +8,7 @@ import { Home } from "./pages/home";
 import { Feed } from "./pages/feed";
 import { Deputados } from "./pages/deputados"
 import { Partidos } from "./pages/partidos"
-import { Noticias } from "./pages/noticias/noticias";
+import { Noticias } from "./pages/noticias";
 
 function App() {
   
