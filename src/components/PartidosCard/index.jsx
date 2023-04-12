@@ -19,7 +19,7 @@ const PartidosCard = () => {
       {partidos.map((partido) => (
         <div key={partido.id}>
           <img src={partido.urlLogo} alt={partido.sigla} />
-          <div>{partido.nome}</div>
+          <div>{partido.sigla} - {partido.nome}</div>
         </div>
       ))}
     </div>

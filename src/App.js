@@ -8,6 +8,8 @@ import { Home } from "./pages/home";
 import { Feed } from "./pages/feed";
 import { Deputados } from "./pages/deputados"
 import { Partidos } from "./pages/partidos"
+import { Noticias } from "./pages/noticias/noticias";
+
 function App() {
   
   return (
@@ -16,7 +18,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/feed" element={<Feed/>} />
         <Route path="/deputados" element={<Deputados/>} />       
-        <Route path="/partidos" element={<Partidos/>} />       
+        <Route path="/partidos" element={<Partidos/>} />  
+        <Route path="/noticias" element={<Noticias/>} />     
 
 
       </Routes>
