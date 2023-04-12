@@ -9,9 +9,8 @@ function Deputados() {
       <>
       <Header />
       <Container>
-      <Pesquisar />
         <div>
-          <DeputadosCard />
+      <Pesquisar />
         </div>
       </Container>
         

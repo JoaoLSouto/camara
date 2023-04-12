@@ -1,12 +1,12 @@
 import React from 'react'
 import congresso from  '../../assets/congresso.png'
+import { Link } from 'react-router-dom';
 
 import {
     Container,
     Row,
     nav
 } from './styles'
-
 
 const Header = ({autenticado}) => {
   return (
@@ -19,13 +19,13 @@ const Header = ({autenticado}) => {
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+                    <a class="nav-link active" aria-current="page" href="/">Página Inicial</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Deputados</a>
+                  <a class="nav-link active" aria-current="page" href="/deputados">Deputados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Partidos</a>
+                    <a class="nav-link" href="/partidos">Partidos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Notícias</a>
